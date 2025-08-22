@@ -16,7 +16,7 @@ This repository contains code for an image caption generation system using deep 
 In addition to the base captioning model, the project integrates a Large Language Model (LLM) via the Together API (Mistral-7B-Instruct) to refine the generated captions, making them more natural, elegant, and human-like. This two-step approach improves the fluency and readability of captions.
 
 - The key components of the project include:
-- Image feature extraction using a pretrained VGG16 model (Consider using MobileNetV2 for memory efficiency)
+- Image feature extraction using a pretrained VGG16 model
 - Caption preprocessing and tokenization
 - Custom captioning model architecture with attention mechanism
 - Model training and evaluation
